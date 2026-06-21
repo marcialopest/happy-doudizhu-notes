@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢乐斗地主 · 快速了解</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f7f6f2;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: #2e2e2c;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 3rem;
+        }
+        /* hero */
+        .hero {
+            margin-bottom: 2.8rem;
+        }
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #1f1e1b;
+            margin-bottom: 0.5rem;
+        }
+        .hero .sub {
+            font-size: 1.05rem;
+            color: #66645e;
+            max-width: 82%;
+        }
+        /* 通用标题 */
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-top: 2.8rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #e0ddd6;
+            display: inline-block;
+        }
+        /* 优势网格 */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem 1rem;
+            margin-top: 1.2rem;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 1.2rem 1rem 1rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+            transition: box-shadow 0.2s;
+        }
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+        .card .emoji {
+            font-size: 1.6rem;
+            display: block;
+            margin-bottom: 0.4rem;
+        }
+        .card h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+            color: #2b2a27;
+        }
+        .card p {
+            font-size: 0.9rem;
+            color: #5e5b55;
+        }
+        /* 说明区 */
+        .desc-box {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 1.6rem 1.5rem 1.8rem;
+            margin: 1.5rem 0 0.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+        .desc-box p {
+            margin-bottom: 1rem;
+        }
+        .desc-box p:last-child {
+            margin-bottom: 0;
+        }
+        .highlight-link {
+            color: #be5a3a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            font-weight: 500;
+        }
+        .highlight-link:hover {
+            color: #99442a;
+        }
+        /* faq 摘要 */
+        .faq-list {
+            list-style: none;
+            margin: 1.2rem 0 0.8rem;
+        }
+        .faq-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #eae7e0;
+        }
+        .faq-list li:last-child {
+            border-bottom: none;
+        }
+        .faq-q {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.1rem;
+            color: #2e2d29;
+        }
+        .faq-a {
+            font-size: 0.92rem;
+            color: #5e5b54;
+        }
+        /* 底部 */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #e2dfd8;
+            font-size: 0.85rem;
+            color: #7b7871;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
+        .footer a {
+            color: #7b7871;
+            text-decoration: none;
+            border-bottom: 1px dotted #cbc8c0;
+        }
+        .footer a:hover {
+            color: #3f3d39;
+            border-bottom-color: #3f3d39;
+        }
+        /* 响应式 */
+        @media (max-width: 480px) {
+            .container {
+                padding: 1.8rem 1.2rem 2.5rem;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero .sub {
+                max-width: 100%;
+            }
+            .grid-2 {
+                grid-template-columns: 1fr;
+                gap: 0.9rem;
+            }
+            .card {
+                padding: 1rem 0.9rem;
+            }
+            .desc-box {
+                padding: 1.2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- hero -->
+        <div class="hero">
+            <h1>欢乐斗地主</h1>
+            <div class="sub">一款在线休闲牌桌游戏，适合快速上手、随时来一局。</div>
+        </div>
+
+        <!-- 优势区 -->
+        <h2 class="section-title">它为什么受欢迎</h2>
+        <div class="grid-2">
+            <div class="card">
+                <span class="emoji">🃏</span>
+                <h3>规则熟悉</h3>
+                <p>经典斗地主玩法，没有复杂门槛，上手即玩。</p>
+            </div>
+            <div class="card">
+                <span class="emoji">⏱️</span>
+                <h3>节奏轻快</h3>
+                <p>单局时间短，等人、通勤的间隙就能开一局。</p>
+            </div>
+            <div class="card">
+                <span class="emoji">🤝</span>
+                <h3>真人匹配</h3>
+                <p>在线随机组队，每局对手都不一样，保持新鲜感。</p>
+            </div>
+            <div class="card">
+                <span class="emoji">📱</span>
+                <h3>即开即用</h3>
+                <p>无需下载客户端，浏览器打开就能开始游戏。</p>
+            </div>
+        </div>
+
+        <!-- 说明区：从用户想快速识别网站用途的角度 -->
+        <div class="desc-box">
+            <p>第一次来到这个网站，你可能会好奇：它到底提供什么？简单说，<a href="https://happy-doudizhu.com" class="highlight-link">欢乐斗地主</a>是一个在线斗地主平台，你不需要注册或安装额外软件，打开页面即可参与牌局。整个体验围绕「快速匹配」和「清晰界面」设计，没有花哨弹窗，也不会强制要求输入个人信息。</p>
+            <p>如果你只是想找个地方打几局牌，放松一下，这里应该挺合适。牌桌配有自动发牌、叫地主、加倍等基础功能，出牌动画简洁，不拖沓。另外，每局结束后会显示本局胜负与积分变化，方便你了解自己的对局情况。</p>
+            <p>值得一提的是，网站整体风格偏轻量化，不追求大而全的社交系统，而是把精力放在对局流畅度上。无论你是老手还是好久没碰牌的新手，都能在几分钟内进入状态。</p>
+        </div>
+
+        <!-- FAQ 摘要 -->
+        <h2 class="section-title">常见疑问</h2>
+        <ul class="faq-list">
+            <li>
+                <span class="faq-q">需要充值或者付费吗？</span>
+                <span class="faq-a">目前平台完全免费开放，没有强制收费项目，游戏内的积分仅用于记录胜负。</span>
+            </li>
+            <li>
+                <span class="faq-q">是否支持电脑和手机？</span>
+                <span class="faq-a">支持。浏览器自适应布局，手机、平板、电脑都能正常显示与操作。</span>
+            </li>
+            <li>
+                <span class="faq-q">一局大概多长时间？</span>
+                <span class="faq-a">正常对局大约 4–8 分钟，具体取决于出牌速度和叫地主情况。</span>
+            </li>
+        </ul>
+
+        <!-- 底部链接 -->
+        <div class="footer">
+            <span>© 欢乐斗地主 · 简洁牌桌</span>
+            <span>
+                <a href="https://happy-doudizhu.com">欢乐斗地主</a> &nbsp;·&nbsp;
+                <a href="#">常见问题</a> &nbsp;·&nbsp;
+                <a href="#">偏好设置</a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
